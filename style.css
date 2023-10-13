@@ -1,0 +1,110 @@
+/* .navbar{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    
+    }
+    a{
+        text-decoration: none;
+        color: white;
+        background-color: black;
+        font-size: 20px;
+    }
+    li{
+        list-style-type: none;
+        display: inline;
+    }
+    #outer{
+        background-color: pink;
+        height: 300px;
+        width: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    #inner{
+        background-color: aqua;
+        height: 100px;
+        width: 100px;
+   
+        
+    } */
+
+/* div{
+    height: 200px;
+    width: 300px;
+    color: white;
+    background-image: url("nature_photo.jpg");
+    background-size: cover;
+    position: fixed;
+    top: 0px;
+    right: 300px;
+    border: 3px solid black;
+    font-size: 40px;
+    text-align: center;
+    
+} */
+
+/* Media Queries */
+
+ div{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+@media(max-width: 300px)
+{
+    div{
+        background-color: green;
+    }
+}
+@media(min-width: 300px) and (max-width: 400px)
+{
+    div{
+        background-color: pink;
+    }
+}
+
+@media(min-width: 400px) and (max-width: 600px)
+{
+    div{
+        background-color: red;
+    }
+}
+@media(min-width: 600px) 
+{
+    div{
+        background-color: blue;
+    }
+} 
+/* div{
+    height: 200px;
+    width: 200px;
+    border: 30px solid black;
+    border-radius: 50%;
+    border-left: 30px solid rgb(255, 5, 5);
+    border-right: 30px solid #ffff10;
+    position: relative;
+    left: 600px;
+    top: 90px;
+    animation: loader 2s infinite;
+    
+}
+h1{
+    text-align: center;
+    font-size: 90px;
+    text-decoration: underline;
+}
+@keyframes loader{
+    from{
+        transform: rotate(0deg)
+    }
+    to{
+        transform: rotate(360deg)
+    }
+} */
